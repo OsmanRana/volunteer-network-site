@@ -1,0 +1,10 @@
+.title{
+    position: relative;
+    bottom: 70px;
+    height: 70px;
+    background-color: blue;
+    z-index: 1;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
