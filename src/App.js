@@ -5,6 +5,7 @@ import Header from './components/Home/Header/Header';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import Register from './components/Register/Register';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route  path='/login'>
             <Login></Login>
+          </Route>
+          <Route  path='/register'>
+            <Register></Register>
           </Route>
           <Route  path='*'>
             <PageNotFound></PageNotFound>
