@@ -7,7 +7,7 @@ const Event = (props) => {
     const { title, image, _id } = props.event;
     const color2 = { red: Math.floor(Math.random() * 255), green: Math.floor(Math.random() * 255), blue: Math.floor(Math.random() * 255) };
     const handleClick = id =>{
-        history.push('/login')
+        history.push(`/register/${id}`)
         console.log('clicked', id)
     } 
 

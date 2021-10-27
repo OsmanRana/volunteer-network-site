@@ -22,7 +22,10 @@ function App() {
           <Route  path='/login'>
             <Login></Login>
           </Route>
-          <Route  path='/register'>
+          <Route exact  path='/register'>
+            <Register></Register>
+          </Route>
+          <Route  path='/register/:id'>
             <Register></Register>
           </Route>
           <Route  path='*'>
